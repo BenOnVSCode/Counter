@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Orbitron&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+nav > header > p {
+    text-align: center;
+    padding: 15px 0 15px 0;
+    font-family: 'Asap', sans-serif;
+    font-size: 30px;
+    background: #2fa080;
+    color: #f8f8f8;
+}
+.counter {
+    margin: 210px 0 0 0;
+    top: 50%;
+    padding: 30px 30px 30px 30px;
+}
+.counter > .container > .timer  {
+    font-family: 'Orbitron', sans-serif;
+    padding: 15px 0px 15px 0px;
+    border: solid #2fa080 10px;
+    border-radius: 2px;
+    margin: 0 30% 0 30%;
+    background: #f8f8f8;
+}
+.buttons {
+    margin: 30px 0 0 0;
+}
+
+button {
+    width: 100px;
+    padding: 15px 0 15px 0 ;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Asap', sans-serif;
+    background: #2fa080;
+    border: none;
+    border-radius: 5px ;
+    margin: 0 0 15px 0;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+footer > a >i {
+    text-decoration: none;
+    color: #b1b1b1;
+    font-size: 25px;
+    margin: 0 15px 10px 0;
+    transition: all 0.5s ease;
+}
+footer > a >i:hover {
+    color: rgb(123, 136, 163);
+        
+}

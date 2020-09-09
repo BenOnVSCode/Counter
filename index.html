@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <nav>
+        <header>
+            <p>Counter</p>
+        </header>
+    </nav>
+    <div class="counter">
+        <div class="container">
+            <div class="timer">
+                <span id="hours">00 : </span>
+                <span id="minutes">00 : </span>
+                <span id="seconds">00</span>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="start">
+                <button onclick="begin()">
+                    <p id="start">Start</p>
+                 </button>
+            </div>
+            <div class="stop">
+                <button onclick="final()">
+                    <p id="stop">Stop</p>
+                </button>
+            </div>
+            <div class="startOver">
+                <button onclick="over()">
+                    <p id="over">Start over</p>
+                </button>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <a href="https://github.com/4bdeladim" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/abdeladim-ben-allal-6840b61b4/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/4bdeladim/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="mailto: benabdeladim7@gmail.com" target="_blank"> <i class="fal fa-envelope"></i></a>
+    </footer>
+    
+    <script src="app.js"></script>
+    <script defer src="https://friconix.com/cdn/friconix.js"> </script>
+</body>
+</html>
